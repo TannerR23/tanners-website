@@ -9,6 +9,13 @@ export default {
   ],
   theme: {
     extend: {
+      screens:{
+        'below-xl': {max: '1280px'},
+        'below-md': {max: '900px'},
+        'below-sm': {max: '640px'},
+        'xs': {max: '480px'},
+        'xxs': {max: '365px'},
+      },
       colors: {
         color: {
           1: "#AC6AFF",
@@ -84,8 +91,13 @@ export default {
   },
   plugins: [
     plugin(function ({ addBase, addComponents, addUtilities }) {
-      addBase({});
+      addBase({
+        html: {
+          "@apply bg-n-8": {},
+        },
+      });
       addComponents({
+        
         ".container": {
           "@apply max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem]":
             {},
