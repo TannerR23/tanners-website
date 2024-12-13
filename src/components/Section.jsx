@@ -10,7 +10,7 @@ const Section = ({
     <div
       id={id}
       className={`relative
-        ${customPaddings || `py-10 lg:py-16 xl:py-20`} 
+        ${customPaddings || `py-10 xs:py-0 lg:py-16 xl:py-20`} 
         ${className || ""}`}
     >
       {children}
@@ -19,7 +19,7 @@ const Section = ({
       <div className="hidden absolute top-0 right-5 w-0.25 h-full bg-stroke-1 pointer-events-none md:block lg:right-7.5 xl:right-10"></div>
 
       {bottomLine && (
-        <div className={`${bottomLineOffset || ""} max-md:hidden py-10 border-b border-n-12 pointer-events-none  ml-[12.5rem] mr-[12.5rem]`}></div>
+        <div className={`${bottomLineOffset || ""} xs:hidden py-10 border-b border-n-12 pointer-events-none  ml-[12.5rem] mr-[12.5rem]`}></div>
       )}
     </div>
   );
