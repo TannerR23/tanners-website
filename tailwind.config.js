@@ -11,8 +11,9 @@ export default {
     extend: {
       screens:{
         'below-xl': {max: '1280px'},
-        'below-md': {max: '900px'},
-        'below-sm': {max: '640px'},
+        'between-l-md': {max: '1100px'},
+        'below-md': {max: '1000px'},
+        'between-md-sm': {max: '810px'},
         'xs': {max: '480px'},
         'xxs': {max: '365px'},
       },
