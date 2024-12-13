@@ -20,15 +20,15 @@ const About = () => {
               aim to gain experience within the software industry to be able to
               design and create solutions to problems around the world.
             </p>
-            <ul className="flex items-center justify-center mt-auto p-4 flex-wrap">
-              {profileIcons.map((item, index) => (
+            <ul className="flex flex-wrap justify-center mt-auto p-4 gap-1">
+              {profileIcons.map((item) => (
                 <Button
                   href={item.link}
                   target
                   className="xs:my-2.5"
                   key={item.id}
                 >
-                  <li className="flex items-center justify-center rounded-2xl bg-n-7 p-2 w-[10rem]">
+                  <li className="flex items-center justify-center rounded-2xl bg-n-7 p-2 w-full xs:w-[8rem] md:w-[10rem]">
                     <img
                       src={item.icon}
                       width={36}
