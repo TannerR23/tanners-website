@@ -6,6 +6,16 @@ import footballIcon from "../assets/football.png"
 import gymIcon from "../assets/dumbbell.png"
 import artIcon from "../assets/art.png"
 import gamesIcon from "../assets/games.png"
+import htmlIcon from "../assets/html.png"
+import cssIcon from "../assets/css.png"
+import javaScriptIcon from "../assets/java-script.png"
+import cSharpIcon from "../assets/c-sharp.png"
+import javaIcon from "../assets/java.png"
+import pythonIcon from "../assets/python.png"
+import nodejsIcon from "../assets/nodejs.png"
+import mysqlIcon from "../assets/mysql.png"
+import windowsIcon from "../assets/windows.png"
+import linuxIcon from "../assets/linux.png"
 
 export const navItems = [
   {
@@ -33,7 +43,7 @@ export const navItems = [
 export const profileIcons = [
   {
     id: "0",
-    name: "Github",
+    name: "GitHub",
     icon: githubLogo,
     link: "https://github.com/TannerR23",
   },
@@ -88,5 +98,93 @@ export const hobbies = [
     hobby: "Games",
     icon: gamesIcon,
     description: "Gaming is something I do in my free time that can help me wind down and relax."
+  },
+]
+
+export const languageSkills = [
+  {
+    id: "0",
+    skill: "HTML",
+    icon: htmlIcon,
+  },
+  {
+    id: "1",
+    skill: "CSS",
+    icon: cssIcon,
+  },
+  {
+    id: "2",
+    skill: "JavaScript",
+    icon: javaScriptIcon,
+  },
+  {
+    id: "3",
+    skill: "C#",
+    icon: cSharpIcon,
+  },
+  {
+    id: "4",
+    skill: "Java",
+    icon: javaIcon,
+  },
+  {
+    id: "5",
+    skill: "Python",
+    icon: pythonIcon,
+  },
+]
+
+export const miscSkills = [
+  {
+    id: "0",
+    skill: "NodeJS",
+    icon: nodejsIcon,
+  },
+  {
+    id: "1",
+    skill: "MySQL",
+    icon: mysqlIcon,
+  },
+  {
+    id: "2",
+    skill: "GitHub",
+    icon: githubLogo,
+  },
+  {
+    id: "3",
+    skill: "Windows",
+    icon: windowsIcon,
+  },
+  {
+    id: "4",
+    skill: "Linux",
+    icon: linuxIcon,
+  },
+]
+
+export const softSkills = [
+  {
+    id: "0",
+    skill: "Agile",
+  },
+  {
+    id: "1",
+    skill: "Team Work",
+  },
+  {
+    id: "2",
+    skill: "Individual Work",
+  },
+  {
+    id: "3",
+    skill: "Communication",
+  },
+  {
+    id: "4",
+    skill: "Time Management",
+  },
+  {
+    id: "5",
+    skill: "Fast Learner",
   },
 ]

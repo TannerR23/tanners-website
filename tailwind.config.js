@@ -14,6 +14,8 @@ export default {
         'between-l-md': {max: '1100px'},
         'below-md': {max: '1000px'},
         'between-md-sm': {max: '810px'},
+        'between-sm-xs': {max: '750px'},
+        'below-sm': {max: '600px'},
         'xs': {max: '480px'},
         'xxs': {max: '365px'},
       },
