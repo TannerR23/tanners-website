@@ -29,7 +29,7 @@ export const BackgroundStars = ({ parallaxRef }) => {
         <div className="absolute">
           <div
             style={generateAnimationStyle()}
-            className={`star w-2 h-2 ml-[11rem] -mt-[12rem] rounded-full transition-transform duration-500 ease-out ${
+            className={`star w-2 h-2 xs:hidden ml-[11rem] -mt-[12rem] rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
@@ -38,7 +38,7 @@ export const BackgroundStars = ({ parallaxRef }) => {
         <div className="absolute">
           <div
             style={generateAnimationStyle()}
-            className={`star w-1 h-1 ml-[17rem] -mt-[23rem] rounded-full transition-transform duration-500 ease-out ${
+            className={`star w-1 h-1 between-md-sm:ml-[28.5rem] xs:ml-[18.5rem] xs:-mt-[11.5rem] between-md-sm:-mt-[9.5rem] ml-[17rem] -mt-[23rem] rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
@@ -47,7 +47,7 @@ export const BackgroundStars = ({ parallaxRef }) => {
         <div className="absolute">
           <div
             style={generateAnimationStyle()}
-            className={`star w-3 h-3 ml-[1rem] -mt-[25.5rem] rounded-full transition-transform duration-500 ease-out ${
+            className={`star w-3 h-3 ml-[1rem] xs:-mt-[20.5rem] -mt-[25.5rem] rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
@@ -65,7 +65,7 @@ export const BackgroundStars = ({ parallaxRef }) => {
         <div className="absolute">
           <div
             style={generateAnimationStyle()}
-            className={`star w-1 h-1 below-md:ml-[45.5rem] below-md:-mt-[9.5rem] between-md-sm:ml-[30.5rem] ml-[47.5rem] -mt-[14.5rem] rounded-full transition-transform duration-500 ease-out ${
+            className={`star w-1 h-1 below-md:ml-[45.5rem] below-md:-mt-[9.5rem] between-md-sm:hidden ml-[47.5rem] -mt-[14.5rem] rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
