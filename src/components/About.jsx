@@ -28,7 +28,7 @@ const About = () => {
                   className="xs:my-2.5"
                   key={item.id}
                 >
-                  <li className="flex items-center justify-center rounded-2xl bg-n-7 p-2 w-[10rem]">
+                  <li className="flex items-center justify-center rounded-2xl bg-n-7 border border-n-5 p-2 w-[10rem]">
                     <img
                       src={item.icon}
                       width={36}
