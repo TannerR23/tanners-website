@@ -2,9 +2,9 @@ import logo from "../../public/logo.svg"
 
 export const Rings = () => {
   return (
-    <div className="absolute top-1/2 left-1/2 w-[50.375rem] aspect-square border border-n-2/50 rounded-full -translate-x-1/2 -translate-y-1/2">
-      <div className="absolute top-1/2 left-1/2 w-[40.125rem] aspect-square border border-n-2/25 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
-      <div className="absolute top-1/2 left-1/2 w-[30.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+    <div className="absolute top-1/2 left-1/2 w-[50.375rem] between-l-md:w-[35.375rem] aspect-square border border-n-2/50 rounded-full -translate-x-1/2 -translate-y-1/2 z-10">
+      <div className="absolute top-1/2 left-1/2 w-[40.125rem] between-l-md:w-[25.125rem] aspect-square border border-n-2/25 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+      <div className="absolute top-1/2 left-1/2 w-[30.125rem] between-l-md:w-[15.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
     </div>
   );
 };
