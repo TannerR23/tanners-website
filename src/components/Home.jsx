@@ -3,7 +3,7 @@ import Section from "./Section";
 import bonsaiTree from "../assets/bonsai-tree.png";
 import { BackgroundStars } from "./HomeStars";
 
-const Home = () => {
+const Home = ({ title, message, msgStyling }) => {
   return (
     <Section
       className="pt-[10rem] -mt-[5.25rem]"
@@ -13,7 +13,7 @@ const Home = () => {
     >
       <div className="container relative">
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[1rem] md:mb-10 lg:mb-[2rem]">
-          <h1 className="h1">Hello...</h1>
+          <h1 className="h1">{title}</h1>
           <img
             className="tree-animation mx-auto"
             src={bonsaiTree}
@@ -21,8 +21,8 @@ const Home = () => {
             alt="tree"
             style={{ filter: "invert(1)" }}
           ></img>
-          <p className="quote text-n-2">
-            "The magic you are looking for is in the work you are avoiding."
+          <p className={`${msgStyling || 'quote text-n-2'}`}>
+            {message}
           </p>
           <BackgroundStars />
         </div>
