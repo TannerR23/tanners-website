@@ -1,4 +1,4 @@
-import { education, hobbies, profileIcons } from "../constants";
+import { courseWorks, education, hobbies, profileIcons } from "../constants";
 import pin from "../assets/pin.png";
 import Button from "./Button";
 import Section from "./Section";
@@ -20,6 +20,12 @@ const About = () => {
               aim to gain experience within the software industry to be able to
               design and create solutions to problems around the world.
             </p>
+            <h5 className="h5 text-center my-4">Coursework</h5>
+            <ul className="flex flex-wrap justify-center mt-4 mb-8 py-4 gap-10 border-t border-b border-n-5">
+              {courseWorks.map((item) => (
+                <li>{item.courseWork}</li>
+              ))}
+            </ul>
             <ul className="flex flex-wrap justify-center mt-auto p-4 gap-1">
               {profileIcons.map((item) => (
                 <Button

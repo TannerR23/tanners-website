@@ -28,7 +28,7 @@ const Contact = () => {
                   Name:
                 </label>
                 <input
-                  className="p-4 bg-n-6 rounded-xl w-full"
+                  className="p-4 bg-n-7 rounded-xl w-full border border-n-10 hover:border-n-4"
                   type="text"
                   name="name"
                   required
@@ -40,7 +40,7 @@ const Contact = () => {
                   Email:
                 </label>
                 <input
-                  className="p-4 bg-n-6 rounded-xl w-full"
+                  className="p-4 bg-n-7 rounded-xl w-full border border-n-10 hover:border-n-4"
                   type="email"
                   name="email"
                   required
@@ -53,7 +53,7 @@ const Contact = () => {
                 Message:
               </label>
               <textarea
-                className="p-4 bg-n-6 rounded-xl w-full"
+                className="p-4 bg-n-7 rounded-xl w-full border border-n-10 hover:border-n-4"
                 name="message"
                 required
               ></textarea>

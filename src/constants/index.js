@@ -213,3 +213,34 @@ export const projects = [
     link: "https://github.com/addysha/MEDETapp",
   },
 ];
+
+export const courseWorks = [
+  {
+    id: "0",
+    courseWork: "Data Structures & Algorithms"
+  },
+  {
+    id: "1",
+    courseWork: "Android Development"
+  },
+  {
+    id: "2",
+    courseWork: "Mathematics"
+  },
+  {
+    id: "3",
+    courseWork: "Databases"
+  },
+  {
+    id: "4",
+    courseWork: "Web Development"
+  },
+  {
+    id: "5",
+    courseWork: "Networking"
+  },
+  {
+    id: "6",
+    courseWork: "Machine Learning"
+  },
+];
