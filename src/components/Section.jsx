@@ -10,7 +10,7 @@ const Section = ({
     <div
       id={id}
       className={`relative
-        ${customPaddings || `py-10 xs:py-0 lg:py-16 xl:py-20`} 
+        ${customPaddings || `py-10 xs:py-0 lg:py-16 xl:py-5`} 
         ${className || ""}`}
     >
       {children}

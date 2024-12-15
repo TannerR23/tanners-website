@@ -8,7 +8,7 @@ import Button from "./Button";
 
 const Projects = () => {
   return (
-    <Section id="projects" className="xl:-translate-y-[10rem]">
+    <Section id="projects">
       <div className="container relative z-2">
         <Title
           title="My Projects"

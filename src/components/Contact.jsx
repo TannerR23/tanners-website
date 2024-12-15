@@ -4,15 +4,14 @@ import Button from "./Button";
 
 const Contact = () => {
   return (
-    <Section id="contact">
+    <Section id="contact" className="xs:translate-y-[2.5rem]">
       <div className="container">
         <Title
           title="Contact Me"
-          className="xl:-translate-y-[15rem] xs:translate-y-[2.5rem]"
           includeBanner
         />
         <form
-          className="flex flex-wrap flex-col xl:-translate-y-[15rem]"
+          className="flex flex-wrap flex-col xl:-translate-y-[4.5rem]"
           action="https://api.web3forms.com/submit"
           method="POST"
         >

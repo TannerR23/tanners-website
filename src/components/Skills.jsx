@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <Section
       id="skills"
-      className="xl:-translate-y-[5rem] between-md-sm:-translate-y-[2.5rem]"
+      className="between-md-sm:-translate-y-[2.5rem]"
     >
       <div className="container">
         <Title title="My Skills" className="xs:mt-[5rem]" includeBanner />
