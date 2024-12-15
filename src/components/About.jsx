@@ -23,7 +23,7 @@ const About = () => {
             <h5 className="h5 text-center my-4">Coursework</h5>
             <ul className="flex flex-wrap justify-center mt-4 mb-8 py-4 gap-10 border-t border-b border-n-5">
               {courseWorks.map((item) => (
-                <li>{item.courseWork}</li>
+                <li key={item.id}>{item.courseWork}</li>
               ))}
             </ul>
             <ul className="flex flex-wrap justify-center mt-auto p-4 gap-1">
