@@ -23,7 +23,7 @@ const Projects = () => {
                 className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] between-md-sm:max-w-full mx-auto border border-n-1/10 rounded-3xl my-10 h-[90%] w-[90%] overflow-hidden hover:bg-n-14"
                 style={{ backgroundImage: `url(${grid})`}}
               >
-                <div className="relative z-2 flex flex-col min-h-[22rem]">
+                <div className="relative z-2 h-full flex flex-col min-h-[22rem]">
                   <h5 className="h5 mb-5 text-center mt-5 underline">
                     {item.name}
                   </h5>
@@ -31,7 +31,7 @@ const Projects = () => {
                     {item.description}
                   </p>
                   <div className="flex items-center mt-auto justify-end xxs:justify-center">
-                    <Button href={item.link} target>
+                    <Button href={item.link} target className="my-4">
                       <div className="flex items-center p-2 bg-n-7 border border-n-5 rounded-full">
                         <p className="ml-auto font-code text-xs font-bold uppercase tracking-wider">
                           View Project
